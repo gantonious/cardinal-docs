@@ -105,7 +105,7 @@ Creates a new meeting. Returns a meeting object representing the newly created m
 
 ## Get Suggested Meeting Times
 
-```http
+```
 GET /meetings/{meeting.id}/suggested-times
 ```
 
@@ -113,7 +113,7 @@ Gets a list of suggested meeting times for a meeting.
 
 ## Get Meeting messages
 
-```http
+```
 GET /meetings/{meeting.id}/messages
 ```
 
@@ -121,7 +121,7 @@ Returns a list of messages for a meeting.
 
 ## Create Message
 
-```http
+```
 POST /meetings/{meeting.id}/messages
 ```
 
@@ -134,7 +134,7 @@ Posts a message to a meeting. Returns a message object representing the new mess
 
 ## Join a Meeting
 
-```http
+```
 POST /meeting/{meeting.id}/join
 ```
 
