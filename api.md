@@ -83,7 +83,7 @@
 
 ## Get a Meeting
 
-```http
+```
 GET /meetings/{meeting.id}
 ```
 
@@ -92,7 +92,7 @@ Get a meeting by id. Returns a meeting object.
 
 ## Create a Meeting
 
-```http
+```
 POST /meetings/
 ```
 
